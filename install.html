@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+    	<style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #af504c;
+  color: white;
+}
+#customers2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers2 td, #customers2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers2 tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers2 tr:hover {background-color: #ddd;}
+
+#customers2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8B5BEC;
+  color: white;
+}
+
+#customers3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers3 td, #customers3 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers3 tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers3 tr:hover {background-color: #ddd;}
+
+#customers3 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4E922C;
+  color: white;
+}
+
+#customers4 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers4 td, #customers4 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers4 tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers4 tr:hover {background-color: #ddd;}
+
+#customers4 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0749BA;
+  color: white;
+}
+</style>
+        <meta charset="utf-8">
+        <title>GoldenWind</title>
+        <meta name="description" content="">
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
+        
+        <!-- Syntax Highlighter -->
+        <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+        <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+		
+		<!-- Font Awesome CSS-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Normalize/Reset CSS-->
+		<link rel="stylesheet" href="css/normalize.min.css">
+		<!-- Main CSS-->
+        <link rel="stylesheet" href="css/main.css">
+		
+    </head>
+	
+    <body id="welcome">
+    
+        <aside class="left-sidebar">
+            <div class="logo">
+                <a href="#welcome">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <nav class="left-nav">
+              <center>
+              <span id="nav">
+                <a href="index.html"> </a><br><br>
+                <a href="manual.html"> </a>
+              </span>
+              </center>
+                <ul id="nav">
+                  <li><center><h4><b>OTRAS SECCIONES</b></h4></center></li>
+                    <li class="current"><a href="index.html">Plan de Negocios</a></li>
+                    <li><a href="manual.html">Manual de Usuario</a></li>
+                	<li><center><h4><b>MANUAL DE USUARIO</b></h4></center></li>
+                    <li class="current"><a href="#welcome">El servidor de hosting WEB</a></li>
+                    <li><a href="#installation2">El Nombre de dominio</a></li>
+                    <li><a href="#installation">Instalando el sitio</a></li>
+                     
+                    
+                </ul>
+            </nav>
+        </aside>
+		
+		<div id="main-wrapper">
+		    <div class="main-content">
+		        <section id="welcome">
+		            <div class="content-header">
+		                <h1>El servidor de hosting WEB</h1>
+		            </div>
+		            <div class="aspectos">
+                        <br>
+                        <h2 class="twenty">Primeros pasos</h2><br> 
+					<p>La presente documentación de este sitio hablará acerca de la instalación de la plataforma de venta de productos "GoldenWind" con el fin de presentar este producto, y que los clientes que lo hayan adquirido puedan instalarlo en el caso de que hayan descargado el software y quieran instalarlo por su propia cuenta, hay que mencionar que la empresa de este software ofrece el servicio atuomatico por lo que si usted adquirio este servicio puede omitir estos pasos e ir a su sitio web y ver el <a href="manual.html">manual de usuario que esta preparado para usted aqui</a>, en el contrario que no haya adquirido este servicio puede seguir con los siguientes pasos que le indican como instalar la plantilla en su servidor.</p>
+		            </div>
+		            <br><br>
+		            <div class="objetivos1">
+		                <h2 class="twenty">Compra del servicio</h2>
+		                 <br><p>Lo primero que tiene que dirigirse es entrar a la pagina <code>https://www.digitalocean.com/</code> en la cual debe crear su cuenta y logearse para aparecer en el menú principal tal como se muestra en las siguiente imágen:</p>
+                      <center><img src="img/img1.png" width="550px" height="315px" alt=""></center>
+		            </div>
+                <br>
+                <p>
+                Después debe ingresar su tarjeta de credito para poder tener un medio de pago para adquirir su servicio de hosting, esto lo hace en la sección de cuentas en el menú lateral de la izquierda, una ves hecho esto puede continuar con este manual, es importante que la tarjeta de credito o debito tenga dinero con el cual se pueda pagar el servicio.  
+                </p>
+                <br>
+                <p>Despues nos dirigiremos en la parte superior del menu y daremos click en el botón color verde donde dice "Create" y eligiremos la opción "Droplet" para crear un nuevo Droplet.</p> <center><img src="img/img2.png" width="550px" height="315px" alt=""></center>
+                <br>
+                Depues tendremos que elegir la opción "Ubuntu" dando click en el botón que viene (vease la siguiente imágen).<br><br>
+                <center><img src="img/img3.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Despues tenemos que acceder al apartado de "Marketplace" y seleccionar la opción de "LAMP on 18.04" como lo indica la siguiente imágen (ojo no confundir con (LEMP")</p><br><br>
+                <center><img src="img/img4.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Bajando la página de digital encontrandonos en la sección "Choose a plan" debemos elegir el plan que nosotros requerimos, vease la siguiente imágen para ver el ejemplo.</p>
+                <br><br>
+                <center><img src="img/img5.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Continuando hacia la parte inferior del sitio, en "Choose a datacenter region" elegimos la región en donde se encontrará nuestro servidor, se recomienda elegir la región más cercana a donde se vaya utilizar su sitio, vea la siguiente imágen como referencia:</p>
+                <br><br>
+                <center><img src="img/img6.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Depués opcionalmente se puede dar un nombre al droplet para identificarlo de una mejor manera, finalmente damos click al boton verde al final de la pagina que dice "Create" y ya tendremos listo nuestro servidor.</p>
+                <br><br>
+                <center><img src="img/img7.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+		        </section>
+		        
+		        <section id="installation2">
+                    <div class="content-header">
+		                <h1>El nombre de dominio</h1>
+                    </div>
+                    <h2 class="title">Name cheap</h2>
+                    
+                    <div class="section-content">
+                        <p>Lo primero que se tiene que hacer es ingresar a <code>www.namecheap.com</code> y crear una cuenta para poder comprar el dominio, y después logearse para encontrarse en la página principal "Dashboard" vea la siguiente imágen.</p>
+
+<br><br>
+                <center><img src="img/img8.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+ <p>Posteriormente debemos dirigirnos al menú superior y dar clic en donde dice "Domains" y elegir "Domain Name Search", serás llevado a un sitio en el cual puedes ingresar el nombre de dominio que buscas ingresando el nombre en el cuadro de texto y posteriormente darás clic en "Search".</p>
+		            <br><br>
+                <center><img src="img/img9.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Veremos distintas opciones del tipo de dominio que podemos usar, por lo que añadirá al carrito aquel dominio que usted desee dando clic en el botón "Add to cart" del dominio que desee y después irá a "View Cart" para realizar la compra, usted deberá introducir los datos de su método de pago que desee y comprar el dominio.</p>
+                  <br><br>
+                <center><img src="img/img10.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Continuando usted debe de volver a su "Dashboard" por y seleccionar la opcion "MANAGE" de su dominio comprado.</p>
+                 <br><br>
+                <center><img src="img/img11.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Después tiene que ir al apartado de "NAMESERVERS" y seleccionar la opción "Custom DNS" y ahora tiene que volver a DigitalOcean, IMPORTANTE NO CERRAR ESTE SITIO, y si lo cierra pues vuelva a buscar este sitio, porqué lo necesitará después.</p>
+                <br><br>
+                <center><img src="img/img12.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>En digital ocean usted debe de ir a sus Droplets y elegir el que ha creado anteriormente y dar clic en "Add Domain".</p>
+                <br><br>
+                <center><img src="img/img13.png" width="550px" height="315px" alt=""></center>
+                <br><br>En la página que lo redirecione, debe ingresar el nombre de dominio que ha comprado en NameCheap y dar clic en "Add Domain".
+                <br><br>
+                <center><img src="img/img14.png" width="400px" height="115px" alt=""></center>
+                <br><br>
+                <p>Ahora aparecerá su dominio en la parte inferior de la página, por lo que ahora tiene que dar clic en "More"  y "Manage Domain" </p>
+                <br><br>
+                <center><img src="img/img15.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Depués se mostrará una tabla "DNS Records" en donde usted copiará los valores dados en "Value" en donde el tipo de valor sea "NS", notará que sale un texto que dice "copy" de clic en este campo y copiaŕa de uno por uno a la página que antes tenia abierta de Namecheap. </p>
+                <br><br>
+                <center><img src="img/img16.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <br><br>
+                <center><img src="img/img17.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>En Namecheap en el sitio de administración de nombre de dominio, debemos pegar los 3 códigos que nos brinda DigitalOcean en el apartado de "NAMESERVERS" tal y como se muestra en la siguiente imágen.</p>
+                <br><br>
+                <center><img src="img/img18.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Ahora usted debera poder acceder a su sitio ingresando por el nombre de nombre de dominio, pero aún no tiene montado el sistema, pase a la siguiente parte de este manual para continuar, <code>IMPORTANTE:</code> el periodo de vinculación de la IP con el nombre de dominio puede tardar hasta 48 horas, por lo que si no ve reflejado aún el cambio pongase en contacto con el equipo de soporte de Namecheap.</p>
+		        </section>
+
+
+		       <!---- <section id="installation">
+                    <div class="content-header">
+		                <h1>Descripción del Entorno</h1>
+                    </div>
+                    <h2 class="title">El Entorno</h2>
+                    
+                    <div class="section-content">
+                       
+                    </div>
+		            
+		        </section>-->
+
+		         <section id="installation">
+                    <div class="content-header">
+		                <h1>Instalando el sitio</h1>
+                    </div>
+                    <h2 class="title">Creación de la base de datos</h2>
+                    
+                    <div class="section-content">
+                       Lo primero que debe de hacer es ingresar a si terminal de comandos e ingresar a su terminal, e ingresar el siguiente codigo con su dirección IP dada por DigitalOcean de su droplet: <code> ssh root@MiDirecciónIP</code><br><br>
+                       <p>Posteriormente si es la primera ves que ingresa le pedira una contraseña, usted la ingresa y accedera a su servidor, a continuación deberá crear una base de datos para el sistema, para esto usted puede tomar como referencia la siguiente página que le indica como crear una base de datos en MYSQL los pasos son los mismos, el link es el siguiente <code><a href="https://www.a2hosting.com.mx/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line">de clic aquí</a></code>, después que usted haya ingresado y realizado la creación de su base de datos ingrese a la dirección "var/www/html/" con el comando <code>cd /var/www/html/</code> (ojo esta dirección puede cambiar si usted ha definido otra raíz de donde se saquen los archivos html de inicio), y después una ves dentro de su dirección raíz deberá de ingresar el comando <code> git clone https://github.com/ArmandoOlvera/MiSitio.git</code> para esto usted deberá tener git instalado en su  computador, una ves terminada la descarga usted ingresará el siguiente comando <code>cd MiSitio/wp-content/themes</code> y posteriormente ingresará el siguiente código <code>git clone https://github.com/ArmandoOlvera/Deepot.git</code>. Ya con estos pasos podemos proceder con la instalación del sitio.</p>
+ 
+                    </div>
+                    <h2 class="title">Instalando WordPress</h2>
+		           <p> Usted debe de ingresar a su pagina en su navegador WEB e ingresar a la carpeta "MiSitio", por ejemplo <code>www.mipagina.com/MiSitio</code> y debe de aparecer la siguiente ventana:   </p>
+		             <br><br>
+                <center><img src="img/img19.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                Posterirmente debemos de dar click en "vamos a ello" e ingresar los datos que  correspondan; en nombre de la base de datos pondremos el nombre de la base de datos que hemos creado anteriormente, en nombre de usuarios ponemos el nombre de usuario de nuestra base de datos junto con su contraseña, todo lo demas se deja estatico y se da clic al botón "enviar".<br>
+                <br><br>
+                <center><img src="img/img19.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <br><br>
+                <center><img src="img/img20.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Si posteriormente reciben este mensaje hagan lo siguiente si no, pasen al siguiente paso "Ultimos pasos"</p>
+                <br><br>
+                <center><img src="img/img21.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+		            <p>TIenen que copiar el codigo que viene en ese apartado y despues ingresar los siguiente comandos <code> cd /var/www/html/MiSitio/</code> después <code> nano wp-config.php</code> después de esto abrán ingresado a in editor de texto en consola aquí dan click derecho con el ratón sobre la terminal y dan click en pegar para pegar el código proporcionado por la página, despues presionan <code>CTRL+X</code> y guardan el acrhivo para despues volver al sitio y dan clic en "Ejecutar Instalación"</p>
+
+                <h2 class="title">Ultimos pasos</h2>
+                <p>Ahora tendremos  cargada la página para ingresar la información del sitio, procederemos a ingresar los datos de nustra pagina, en titulo de sitio sera el nombre que aparece en la parte superior de nustro sitio, nombre de usuario sera el nombre de usuario con que ingresemos al sistema como administradores, para la parte contraseña es el códifo con el que accederemos al sistema, el correo electronico es para que te envíen información acerca de actulizæciones o eventos importantes de tu sitio, una ves cubiertos estos campos se da clic en "Instalar WordPress" y listo tendremos listo nuestro sistema casi listo!.</p>
+		        </section> <br> 
+<section id="seis">
+                    <div class="content-header">
+		                <h1>Instalar diseño y datos de demostración</h1>
+                    </div>
+                    <h2 class="title">Proceso de instalar el diseño</h2>
+                     Primero tenemos que inrgsar a nuestro sitio como administradores con la cuenta y contraseña que creamos anteriormente, accediendo a nustro sitio de la siguiente forma <code>www.mipagina.com/MiSitio/wp-admin</code>.
+                     <br><br>
+                <center><img src="img/img22.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Darás clic en la sección donde dice plugins en el menú izquierdo, en la sección "Añadir Nuevo".</p>
+                <br><br>
+                <center><img src="img/img24.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Después ingresarás al apartado de palabras clave de la siguiente pagina que te muestre e ingresarás "WooCommerce" depues buscarás la primera opcion y daras clic en "instalar ahora" y a "Activar", si sale una ventana solicitando información de FTP, tienes que ingresar de nuevo al archivo "wp-config.php" y añadir esta línea de código <code>define('FS_METHOD', 'direct');</code> en cualquier parte del documento sin borrar nada más.</p>
+                 <br><br>
+                <center><img src="img/img25.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Una ves instalado el plugin y activado nos lleva a una página para configurar WOoCommerce, tenemos que dar clic en Utilizær el asistente de configuración y procedemos a llenar los datos de nustro sitio como nosotos querramos, <code>Importante:</code> NO es necesario definir metodos de envio, ni instalar strefront theme ni mailchimp, es mejor evitar esto por ahora, tampoco hay que instalar JetPack, una ves llenado los datos y configurado todo procedemos a ir a la pagina de inicio de WordPress</p>
+
+                <br><br>
+                <center><img src="img/img26.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>Despues accedemos al menu izquierdo en la sección de "Apariencia", damos clic en "Temas".</p>
+<br><br>
+                <center><img src="img/img27.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <p>ELegimos la plantilla "Depot" y damos clic en "Activar", nos pedirá que instalemos algunos plugins, por lo que tenemos que instalarlos, activamos lo plugins y volvemos a repetir el proceso.</p>
+		            </section>
+					  <br><br>
+                <center><img src="img/img28.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+                <br><br>
+                <center><img src="img/img29.png" width="550px" height="105px" alt=""></center>
+                <br><br>
+  <p>Un ves hecho esto procedemos a ir al menu izquierdo dar clic en "Mikado Options" y después en "General", nos aparecera una ventana color azul con su propio menu izquierdo, procedemos dar clic en "import" como se ve en la isguiente imágen.</p>
+  <br><br>
+                <center><img src="img/img30.png" width="550px" height="315px" alt=""></center>
+                <br><br>
+<p>En import seleccionamos import como "Depot" en importype como "All" y ponemos yes en import atacchments, par al final dar clic en el boton de import, esperamos un momento y ya tendremos la plantilla llena con datos lista para trabajar, los siguientes pasos a seguir es leer el manual de usuario para poder trabajar la plataforma.</p>
+<br><br><br><br><br><br><br><br><br>
+		    </div>
+		</div>
+		
+		
+		<!-- Essential JavaScript Libraries
+		==============================================-->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nav.js"></script>
+        <script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+        <script type="text/javascript">
+            SyntaxHighlighter.all()
+        </script>
+        <script type="text/javascript" src="js/custom.js"></script>
+		
+    </body>
+</html>
